@@ -248,7 +248,8 @@ export default function Home() {
                   eye health and posture while using digital devices. It uses
                   computer vision and machine learning to detect bad posture and
                   blinking patterns, and provides reminders to take screen
-                  breaks.
+                  breaks. The model is fully customizable and built to be easily
+                  retrained for applications like Geico DriveEasy.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <Link
@@ -290,9 +291,9 @@ export default function Home() {
                 devices.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Whether you work from home, study online, or enjoy browsing the
-                web, ErgoBlink can help you prevent computer vision syndrome and
-                improve your well-being.
+                Whether you work from home, study online, or driving, ErgoBlink
+                can help you prevent computer vision syndrome and improve your
+                well-being.
               </p>
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -338,6 +339,7 @@ export default function Home() {
                 <p className="mt-6 text-lg leading-8 text-gray-300">
                   ErgoBlink uses computer vision and machine learning to detect
                   bad posture and blinking patterns, and provides reminders to
+                  take screen or drive breaks.
                 </p>
               </div>
             </div>
